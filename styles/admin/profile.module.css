@@ -1,0 +1,176 @@
+.homeProfile{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.showProfile{
+    position: absolute;
+    height: 285px;
+    width: 97%;
+    background-color: white;
+    left: 1.5%;
+    color: #8C8C8C;
+    position: relative;
+    
+}
+.headerProfiel{
+    height: 85px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lableProfiel{
+    width: 116px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00474F;
+    border-radius: 0px 8px 8px 0px;
+
+}
+.labelTxt{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+.actionProfile{
+    width: 180px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 15px;
+
+}
+.editProfile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50px;
+}
+.lineVertical{
+    height: 25px;
+    background-color: #8C8C8C;
+    width: 1px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    
+}
+.infoLeft{
+    width: 60%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.lineInfo{
+    height: 20px;
+    background-color: #8C8C8C;
+    width: 1px;
+}
+.infoLeft1{
+    display: flex;
+    width: 300px;
+    justify-content:space-between;
+    align-items: center;
+    width: 370px;
+}
+.infoEmail{
+    display: flex;
+    width: 175px;
+    align-items: center;
+    justify-content: space-between;
+}
+.inifoNumber{
+    display: flex;
+    width: 125px;
+    align-items: center;
+    justify-content: space-between;
+}
+.infoLeft2{
+    margin: 15px 0;
+    display: flex;
+    width: 85%;
+    align-items: center;
+    justify-content: space-between;
+}
+.medical1{
+    width: 180px;
+}
+.nameProfile{
+    margin-bottom: 15px;
+    padding-left: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.PlFamily{
+    padding-left: 10px;
+}
+.infoRight{
+    flex:  0 0 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+
+.closeProfile{
+    z-index: 10;
+    cursor: pointer;
+}
+.editProfile{
+    z-index: 10;
+    cursor: pointer;
+}
+.passwordProfile{
+    width: 150px;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 33px;
+
+}
+.passwordManage{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+.bgImg{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.medicalInfo1{
+    flex: 0 0 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.medical1{
+    width: 70%;
+}
+.medical2{
+    width: 100%;
+    margin-left: 20px;
+}
+.pass{
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.textPassword {
+    margin-right: 20px;
+}

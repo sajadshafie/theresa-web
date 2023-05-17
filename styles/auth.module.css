@@ -1,0 +1,94 @@
+.centerButton {
+	text-align: center;
+}
+.textAlignCenter {
+	text-align: center !important;
+}
+.confirmNotif {
+	padding-top: 25px;
+	padding-bottom: 32px;
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	color: #000000;
+	align-items: center;
+}
+
+.confirmNotif > span {
+	margin-left: 44px;
+	color: #008890;
+	font-size: 16px;
+}
+/* .errAuth{
+  
+  color: red !important;
+  margin: 0 !important;
+  font-size: 14px !important;
+
+} */
+.authModalContainer {
+	box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.25);
+	padding-top: 50px;
+	position: absolute;
+	top: 20%;
+	left: 30%;
+	width: 47%;
+	height: 530px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	background-color: white;
+	border-radius: 8px;
+}
+.contentModalauth {
+	width: 53%;
+	height: 60%;
+}
+.desModal {
+	color: #828282;
+	/* text-align: center; */
+}
+.titleModalauth {
+	color: #08979c;
+	/* text-align: center; */
+	margin-bottom: 30px;
+	font-weight: 700;
+}
+.fullContainerModal {
+	backdrop-filter: blur(23px);
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(255, 255, 255, 0.7);
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+}
+.fullContainerModalHome {
+	backdrop-filter: blur(23px);
+	position: absolute;
+	top: 0;
+	left: -5%;
+	background: rgba(255, 255, 255, 0.7);
+	width: 105.5%;
+	height: 100%;
+	z-index: 100;
+}
+@media only screen and (max-width: 1500px) {
+	.fullContainerModalHome {
+		left: -9 !important;
+		width: 106% !important;
+	}
+}
+@media only screen and (max-width: 1440px) {
+	.titleModalauth {
+		font-size: 1.9vw;
+	}
+}
+@media only screen and (max-width: 1500px) {
+	.fullContainerModalHome {
+		left: -9 !important;
+		width: 106% !important;
+		background-color: red;
+	}
+}

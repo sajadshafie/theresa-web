@@ -1,0 +1,658 @@
+.adminContainer {
+	max-width: 1920px;
+	max-height: 1024px;
+	margin: 0 auto;
+	background-color: "#FDFDFD";
+	position: relative;
+}
+
+.adminDashbord {
+	float: right;
+	display: flex;
+	align-items: center;
+	height: 60px;
+}
+.tabMenu {
+	flex: 0.2;
+}
+.adminHeader {
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.hambergerMenu {
+	flex: 0.1;
+}
+.navbar {
+	display: flex;
+	width: 100%;
+	height: 99px;
+	background-color: #fdfdfd;
+}
+.sideContainer {
+	flex: 0 0 6.9%;
+	width: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: #fdfdfd;
+}
+.adminProfileData {
+	display: flex;
+	width: 250px;
+	align-items: center;
+	justify-content: space-evenly;
+	margin-right: 10px;
+}
+.adminProfile {
+	flex: 0.44;
+
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	height: 100%;
+	background-color: #fdfdfd;
+	padding: 7.8px 0;
+}
+.name {
+	margin: 0;
+	font-size: 24px;
+	font-weight: 600;
+	color: #4f4f4f;
+}
+.image {
+	border-radius: 25px;
+}
+.navItem {
+	height: 100%;
+	flex: 1.2;
+	background-color: #fdfdfd;
+}
+.side {
+	display: flex;
+}
+.sideItem {
+	position: relative;
+	flex: 0.15;
+	height: 914px;
+	background-color: #fdfdfd;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.icons {
+	width: 100%;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+.imageSide {
+	position: absolute;
+	bottom: 2%;
+	width: 56px;
+	display: block;
+}
+.leftMenuicons {
+	display: flex;
+}
+.item__icon {
+	margin: 10px;
+}
+.listContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #eff3f3;
+}
+.activePatientList {
+	/* position: relative; */
+	width: 97%;
+	display: flex;
+	justify-content: center;
+	height: 885px;
+	margin-top: 31px;
+}
+.adminDataContainer {
+	flex: 2;
+	position: relative;
+}
+.headerMenuItem {
+	/* color: #D9D9D9; */
+	height: 100%;
+	display: flex;
+	align-items: center;
+	font-size: 20px;
+	font-weight: 500;
+}
+.table {
+	width: 100%;
+	margin-top: 50px;
+}
+.homePage {
+	display: flex;
+	justify-content: center;
+}
+.addressPatient {
+	margin-bottom: 13px;
+}
+.txtHome {
+	font-size: 40px;
+	text-align: center;
+	color: #08979c;
+	font-weight: 700;
+}
+.modal {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(29, 29, 29, 0.6);
+	display: flex;
+	justify-content: flex-end;
+	opacity: 1;
+	transition: 0.5s all ease-in-out;
+	z-index: 11;
+}
+.subCatShow {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 40px;
+}
+.subCatShowtxt {
+	color: #08979c;
+	font-size: 12px;
+	font-weight: 600;
+}
+.closeModal {
+	/* width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(161, 90, 90, 0.6);
+	display: flex;
+	justify-content: flex-end; */
+	opacity: 0;
+	transition: 0.5s all ease-in-out;
+}
+.addPatient {
+	overflow-y: auto;
+	overflow-x: hidden;
+	width: 50%;
+	height: 100%;
+	background-color: #ffffff;
+	padding: 14px 24px;
+	flex: 0 0 50%;
+}
+.emptyModal {
+	width: 50%;
+	flex: 0 0 50%;
+}
+.titlePatient {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.textTitle {
+	margin: 0;
+	font-size: 16px;
+	font-weight: 600;
+}
+.line {
+	width: 107.5%;
+	height: 2px;
+	background-color: #f0f0f0;
+	margin: 12px 0;
+	margin-left: -22px;
+}
+.inputsHeader {
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+	align-items: flex-start;
+	margin-bottom: 15px;
+}
+.txtTitle {
+	margin: 0;
+	color: #08979c;
+	margin-bottom: 10px;
+}
+.row {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	height: 87px;
+}
+.myInputs {
+	flex: 0 0 46%;
+}
+.generalQuestion {
+	margin-top: 32px;
+}
+.rowQuestion {
+	margin-top: 45px;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	height: 40px;
+	flex-wrap: wrap;
+}
+.myQuestion {
+	flex: 0 0 46%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 6px 0;
+	height: 16px;
+}
+.myQuestion p {
+	margin: 0;
+}
+.others {
+	margin-top: 65px;
+}
+.category {
+	display: flex;
+}
+.myCategory {
+	flex: 0 0 46%;
+}
+.category {
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+/* ##### View Patient Class start #### */
+.viewPatientContainer {
+	/* overflow-y: auto; */
+	z-index: 5;
+	position: absolute;
+	top: 20px;
+	left: 1.3%;
+	background-color: white;
+	width: 97.5%;
+	height: 850px;
+	padding-top: 16px;
+	color: #8c8c8c;
+}
+.viewPatientTitle {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 33px;
+}
+.titleBtn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #00474f;
+	width: 182px;
+	height: 55px;
+	color: white;
+	border: none;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+.titleTxt {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 150px;
+}
+.titleTxt p {
+	margin: 0;
+}
+.editViewPatient {
+	cursor: pointer;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 70px;
+	color: #08979c;
+}
+.verticalLine {
+	width: 1px;
+	height: 20px;
+	background-color: #8c8c8c;
+	margin: 0 20px;
+}
+.dataPatient {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	width: 100%;
+	padding: 0 32px;
+	margin-top: 20px;
+}
+.dataPatient * {
+	color: #8c8c8c;
+}
+.patientInformation {
+	flex: 0 0 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.generalQuestionPatient {
+	flex: 0 0 50%;
+	display: flex;
+	height: 250px;
+
+	align-items: flex-start;
+	flex-direction: column;
+}
+.userInfo {
+	display: flex;
+	align-items: center;
+	/* justify-content: space-between; */
+	width: 350px;
+}
+.userInfo h4 {
+	margin: 0;
+}
+.calendarPatient {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 450px;
+	height: 44px;
+}
+.tellPatient {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	width: 260px;
+	margin-bottom: 16px;
+}
+.phonePatient {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 125px;
+}
+.mobPatient {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100px;
+}
+.switchOn {
+	/* flex: 0 0 100%; */
+	display: flex;
+	flex-wrap: wrap;
+	height: 100px;
+	/* width: 100%; */
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-top: 26px;
+}
+.switchOnLeft {
+	height: 90px;
+	flex: 0 0 47%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+}
+.switchBox {
+	margin: 8px 0;
+	display: flex;
+	width: 47%;
+	justify-content: space-between;
+	align-items: center;
+}
+.switchOnRight {
+	flex: 0 0 47%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	height: 55px;
+}
+
+.btnAddProblem {
+	flex: 0 0 10%;
+	background-color: #08979c;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 83px;
+	height: 32px;
+	color: white !important;
+	border: none;
+	border-radius: 2px;
+}
+.problemPatinet {
+	overflow-y: auto;
+	color: #8c8c8c;
+	padding-left: 32px;
+	padding-right: 32px;
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	max-height: 450px;
+}
+.problem {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	height: 70px;
+	justify-content: space-between;
+	margin: 20px 0;
+	/* margin: 20px; */
+}
+.history {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+.history h2 {
+	color: #8c8c8c;
+}
+.namePatient {
+	font-weight: 600;
+	font-size: 30px;
+	color: #595959;
+	margin: 0;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.agePatient {
+	width: 140px;
+	font-size: 24px;
+	color: #003a8c;
+	font-weight: 600;
+	margin: 0;
+}
+.statusPatient {
+	color: #096dd9;
+	margin: 0;
+}
+.statusPatientHighRisk {
+	width: 100px;
+	color: #e00a0a;
+	margin: 0;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.txtTitlePatient {
+	font-size: 20px;
+	font-weight: 600;
+}
+.closeHistory {
+	cursor: pointer;
+}
+.txtAddress {
+	margin-bottom: 8px;
+}
+.txtQuestion {
+	margin: 0;
+}
+.historyContent {
+	width: 32%;
+	height: 100%;
+	background-color: #ffffff;
+	padding: 14px 24px;
+	flex: 0 0 32%;
+}
+.histroyEmpty {
+	width: 68%;
+	flex: 0 0 68%;
+}
+/* ##### View Patient Class end ##### */
+/* ######## Pregnancy History Class ######## */
+.contentPregnancyHistory {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-around;
+	height: 600px;
+	margin-top: 20px;
+}
+.historyRow {
+	display: flex;
+	align-items: center;
+}
+.historyRowInput {
+	display: flex;
+	align-items: center;
+
+	border: 1px solid #08979c;
+	border-radius: 3px;
+}
+.historyRowInputErr {
+	display: flex;
+	align-items: center;
+	border: 1px solid red;
+	border-radius: 3px;
+}
+.contentPregnancyProblems {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-around;
+	height: 380px;
+}
+.contentPregnancyUnderlying {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-around;
+	height: 380px;
+}
+.contentAbortion {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-around;
+	height: 380px;
+}
+
+.activeSex {
+	background: #08979c;
+	width: 50%;
+	height: 40px;
+	color: white;
+	border: none;
+	transition: 0.4s all ease-in-out;
+	border: 1px solid #08979c;
+}
+.deactiveSex {
+	border: 1px solid #08979c;
+	transition: 0.4s all ease-in-out;
+	border: none;
+	background: white;
+	width: 50%;
+	height: 40px;
+	color: #08979c;
+}
+.titleProblem {
+	margin: 0;
+	flex: 0 0 20%;
+}
+.titleProblemAbortion {
+	margin: 0;
+	flex: 0 0 3%;
+}
+.lineProblem {
+	flex: 0 0 68%;
+	width: 100%;
+	height: 1px;
+	background-color: #d8d8d8;
+}
+.lineProblemAbortion {
+	flex: 0 0 80%;
+	width: 100%;
+	height: 1px;
+	background-color: #d8d8d8;
+}
+.multiHistory {
+	border: 1px solid #fa8c16;
+	background-color: #ffdcb7;
+	color: #fa8c16;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 145px;
+	height: 26px;
+}
+.multiplie {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+.contentNew {
+	width: 29%;
+	height: 100%;
+	/* background-color: #ffffff; */
+	background-color: white;
+	padding: 14px 24px;
+	flex: 0 0 29%;
+	z-index: 100;
+}
+.emptyNew {
+	width: 69%;
+	flex: 0 0 69%;
+}
+.newModalTxt {
+	font-size: 14px;
+	margin-bottom: 22px;
+}
+.fullContainerModalHome {
+	backdrop-filter: blur(23px);
+	position: absolute;
+	top: -10.5%;
+	left: -5.5%;
+	background: rgba(255, 255, 255, 0.7);
+	width: 105.5%;
+	height: 110.2%;
+	z-index: 100;
+}
+@media only screen and (min-width: 1440px) {
+	.sideItem {
+		width: 100px;
+		flex: 0 0 100px;
+	}
+	.sideContainer {
+		width: 100px;
+		flex: 0 0 100px;
+	}
+}
+
+@media only screen and (max-width: 1500px) {
+	.fullContainerModalHome {
+		left: -9% !important;
+		width: 110% !important;
+	}
+}

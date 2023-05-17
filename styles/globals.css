@@ -1,0 +1,369 @@
+@import "~antd/dist/antd.css";
+
+@font-face {
+	font-family: "Teresa";
+	src: url(/fonts/sf-pro-text-regular.ttf);
+	font-display: swap;
+}
+
+.dropDown-profile {
+	top: 100px !important;
+	min-width: 239px !important;
+	left: 84% !important;
+}
+html,
+body {
+	scrollbar-arrow-color: #c1c1d1;
+	min-height: 1024px;
+	padding: 0;
+	margin: 0;
+	font-family: "Teresa";
+	background-color: #eee;
+}
+h1,
+h2,
+h3,
+p {
+	padding: 0;
+	margin: 0;
+}
+.text-overflow {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	width: 100px;
+}
+
+a {
+	color: #008890 !important;
+}
+input,
+select,
+button {
+	font-family: "Teresa" !important;
+}
+button {
+	cursor: pointer;
+}
+.ant-dropdown-menu-item:hover {
+	background-color: #e6fffb !important;
+	color: #08979c !important;
+}
+.active-side {
+	color: #08979c;
+}
+.rootContainer {
+	max-width: 1440px;
+	height: 1024px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: #fff;
+	position: relative;
+}
+.rootContainer-reverse {
+	flex-direction: row-reverse !important;
+}
+.main-auth {
+	position: relative;
+}
+.buttonDefault {
+	background: #008890;
+	border-color: #008890;
+}
+.buttonDefault:hover {
+	background: #11b4bd;
+}
+.ant-menu-inline .ant-menu-item::after {
+	border-right: none;
+}
+/* #### Antd edited begin ##### */
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected {
+	border-bottom: 3px solid #008890 !important;
+}
+.left-side-menu .ant-menu-item-active {
+	border-left: 3px solid #008890;
+	transform-origin: center;
+	transition: border-left 0.1s ease-in;
+}
+.ant-menu-inline .ant-menu-item {
+	padding: 0px;
+	padding-left: 0px;
+	border-left: 2px solid transparent;
+}
+.ant-menu-item li {
+	padding-left: 0px !important;
+}
+.ant-menu li {
+	padding-left: 0 !important;
+}
+.ant-menu-light li {
+	padding-left: 0 !important;
+}
+.ant-menu-root li {
+	padding-left: 0 !important;
+}
+.ant-menu-inline li {
+	padding-left: 0 !important;
+}
+.left-side-menu .ant-menu-item-selected {
+	color: #008890 !important;
+	border-left: 2px solid #008890;
+}
+.left-side-menu .ant-menu-item-active {
+	border-left: 2px solid #008890;
+}
+.ant-menu-inline .ant-menu-item::after {
+	border-right: 1px solid #fdfdfd !important;
+}
+.btn-add-patient:hover {
+	background-color: #01a8b1;
+}
+.header-menu .ant-menu-item-selected {
+	color: #008890 !important;
+}
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected {
+	border-bottom: 3px solid #008890;
+}
+.header-menu .ant-menu-item-active {
+	border-bottom: 3px solid #008890 !important;
+	color: #008890 !important;
+}
+.svg-path {
+	fill: #008890;
+}
+.note-side {
+	fill: #008890;
+}
+.asis-side {
+	fill: #008890;
+}
+.svg-1 {
+	display: none;
+}
+.no-svg .svg-1 {
+	display: block;
+	width: 100px;
+	height: 100px;
+	/* background-image: url(image.png); */
+}
+
+.ant-table-content {
+	margin-bottom: 40px !important;
+}
+.ant-table-tbody > tr > td,
+.ant-table tfoot > tr > th,
+.ant-table tfoot > tr > td {
+	padding: 4px 16px !important;
+}
+
+.ant-table-thead > tr > th[colspan]:not([colspan="1"]) {
+	text-align: left !important;
+}
+
+.content-btn .ant-form-item {
+	margin: 0 !important;
+}
+.content-btn .ant-col-offset-8 {
+	margin: 0 !important;
+}
+.switch .ant-switch-checked {
+	background-color: #008890;
+}
+.content-btn button {
+	background-color: #008890;
+}
+.content-btn .ant-btn-primary:active {
+	background-color: #008890 !important;
+}
+.content-btn .ant-btn-primary:hover {
+	background-color: #00a5ad !important;
+}
+/* .content-btn .ant-btn-primary::after {
+	background-color: #00a5ad !important;
+} */
+/* ### Antd edited ended  ### */
+.header-menu {
+	color: #d9d9d9;
+}
+.btn-add-patient {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 158px;
+	height: 40px;
+	background-color: #008890;
+	border: none;
+	color: #ffff;
+	font-weight: 500;
+	position: absolute;
+	right: 1.4%;
+	top: 23px;
+}
+/* #### btn inside modal  start ######## */
+.content-btn {
+	/* position: absolute;
+	top: 10px;
+	right: 10px; */
+	/* z-index: 55; */
+	width: 180px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.btn-modal-cancel {
+	border-radius: 2px;
+	width: 80px;
+	height: 32px;
+	background-color: white !important;
+	color: #08979c;
+	border: 2px solid #08979c;
+	border-radius: 2px;
+}
+.btn-modal-submit {
+	width: 80px;
+	height: 32px;
+	background-color: #08979c;
+	color: white;
+	border: none;
+	border-radius: 2px;
+}
+
+/* ####### btn inside modal end ######  */
+.ant-main-color .ant-switch-checked {
+	background-color: #08979c !important;
+}
+.ant-col-16 {
+	max-width: 100% !important;
+}
+.ant-col-8 {
+	flex: 0 0 100% !important;
+	max-width: 100% !important;
+}
+/* ####### Search Antd ######### */
+.list-container .ant-input-group-addon .ant-btn {
+	background: #08979c !important;
+	color: white !important;
+	height: 40px;
+	width: 40px;
+}
+.list-container .ant-input {
+	height: 32px;
+}
+/* ############## Table Antd ########### */
+.list-container .ant-table-filter-trigger-container {
+	width: 20px !important;
+	position: absolute;
+	top: 0;
+	left: 90px;
+	bottom: 0;
+	display: flex;
+	flex: none;
+	align-items: stretch;
+	align-self: stretch;
+	cursor: pointer;
+	-webkit-transition: background-color 0.3s;
+	transition: background-color 0.3s;
+}
+.list-containe .ant-table-filter-trigger-container-open {
+	width: 20px !important;
+}
+
+/* ######## History Style  inputs ########### */
+.content-history .ant-form-item {
+	width: 100% !important;
+}
+.content-history .ant-row {
+	display: block !important;
+}
+.content-abortion .ant-row {
+	display: block !important;
+}
+.search-patientList .ant-input {
+	height: 40px !important;
+}
+.list-container .ant-switch-checked {
+	background-color: #08979c;
+}
+.content-btn-new {
+	width: 110px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.content-btn-new .ant-form-item {
+	margin: 0 !important;
+}
+.content-btn-new .ant-col-offset-8 {
+	margin: 0 !important;
+}
+.switch .ant-switch-checked {
+	background-color: #008890;
+}
+.content-btn-new button {
+	background-color: #008890;
+}
+.content-btn-new .ant-btn-primary:active {
+	background-color: #008890 !important;
+}
+.content-btn-new .ant-btn-primary:hover {
+	background-color: #00a5ad !important;
+}
+.form-item-2 .ant-input {
+	width: 70%;
+}
+.form-item-2 .ant-form-item-control-input-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.search-assis .ant-input-group-addon {
+	background-color: #08979c;
+}
+.search-assis .ant-btn {
+	border: none;
+	background-color: #08979c;
+	color: white;
+}
+.search-assis .anticon-search {
+	color: white;
+}
+/* ########### search ################## */
+.search-patientList .ant-input-affix-wrapper {
+	padding: 0 10px !important;
+}
+.search-patientList .ant-input-suffix {
+	margin-right: 10px !important;
+}
+.search-patientList .ant-select-selector {
+	border: none !important;
+	outline: none !important;
+}
+.search-patientList .ant-select-focused {
+	border: none !important;
+	outline: none !important;
+}
+
+.my-list .ant-table-cell {
+	/* width: 270px; */
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+/* ######## Media ############# */
+.content-history .ant-form-vertical .ant-form-item {
+	flex-direction: row !important;
+}
+
+@media only screen and (max-width: 1500px) {
+	.fullContainerModalHome {
+		left: -9 !important;
+		width: 106% !important;
+	}
+}
+@media only screen and (max-width: 900px) {
+	.sj-setauth {
+		width: 90%;
+		margin: 0 auto;
+	}
+}

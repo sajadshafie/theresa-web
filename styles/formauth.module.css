@@ -1,0 +1,63 @@
+.slide {
+	background: #238b85;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1.1;
+}
+.form {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	padding-top: 132px;
+
+	flex: 1;
+	position: relative;
+	height: 100%;
+}
+.form > div {
+	display: flex;
+
+	flex-direction: column;
+
+	width: 435px;
+}
+.form h1 {
+	color: #238b85;
+	font-size: 36px;
+	margin-top: 60px;
+	margin-bottom: 32px;
+	font-weight: bold;
+	text-align: center;
+}
+.form p {
+	font-size: 16px;
+	color: #828282;
+	margin-bottom: 11vh;
+	text-align: center;
+}
+.formPmb {
+	margin-bottom: 4vh !important;
+}
+.bottomSection {
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	left: 0;
+	right: 0;
+}
+.bottomSection > div:first-child {
+	margin-bottom: 40px;
+}
+.bottomSection > div:last-child {
+	margin-bottom: 10px;
+}
+@media only screen and (max-height: 950px) {
+	.form p {
+		margin-bottom: 5vh;
+	}
+}
